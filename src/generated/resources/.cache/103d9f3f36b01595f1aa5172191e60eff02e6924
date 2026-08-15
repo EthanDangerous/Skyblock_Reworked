@@ -1,0 +1,4 @@
+// 1.21.1	2026-08-15T15:09:10.8761558	Registries
+cba961bb71947a00f2b5307baf2628b8ecb805f3 data/skyblock_reworked/neoforge/biome_modifier/add_spawn_island.json
+de7a8934a32cfabde0bf0b87d6e4f2edeed08684 data/skyblock_reworked/worldgen/configured_feature/spawn_island.json
+01910e5b99dcaaeda66182d339ad7cbb20148d47 data/skyblock_reworked/worldgen/placed_feature/spawn_island.json
