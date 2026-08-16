@@ -21,6 +21,7 @@ public abstract class WorldgenOverrideMixin {
 
     @Inject(method="fillFromNoise", at=@At("HEAD"), cancellable=true)
     private void fillFromNoise(Blender p_224313_, RandomState p_224314_, StructureManager p_224315_, ChunkAccess p_224316_, CallbackInfoReturnable<CompletableFuture<ChunkAccess>> cir){
+        cir.setReturnValue(CompletableFuture.completedFuture(p_224316_));
         cir.cancel();
     }
 
