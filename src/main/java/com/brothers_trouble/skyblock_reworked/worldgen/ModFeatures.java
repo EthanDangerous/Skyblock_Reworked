@@ -13,6 +13,5 @@ public class ModFeatures {
             DeferredRegister.create(Registries.FEATURE, Skyblock_Reworked.MODID);
 
     public static final DeferredHolder<Feature<?>, SpawnIslandFeature> SPAWN_ISLAND_FEATURE =
-            FEATURES.register("spawn_island_feature",
-                    () -> new SpawnIslandFeature(NoneFeatureConfiguration.CODEC));
+            FEATURES.register("spawn_island_feature", () -> new SpawnIslandFeature(NoneFeatureConfiguration.CODEC));
 }

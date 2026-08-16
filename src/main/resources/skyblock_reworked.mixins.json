@@ -1,9 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.brothers_trouble.skyblock_reworked.skyblock_reworked.mixin",
+  "package": "com.brothers_trouble.skyblock_reworked.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "WorldgenOverrideMixin"
   ],
   "client": [
   ],
