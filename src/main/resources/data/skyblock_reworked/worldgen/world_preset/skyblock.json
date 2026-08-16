@@ -7,7 +7,7 @@
         "settings": {
           "biome": "minecraft:the_void",
           "lakes": false,
-          "features": false,
+          "features": true,
           "layers": [],
           "structure_overrides": []
         }

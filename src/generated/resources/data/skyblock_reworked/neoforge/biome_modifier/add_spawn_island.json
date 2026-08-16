@@ -1,6 +1,6 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": "minecraft:the_void",
   "features": "skyblock_reworked:spawn_island",
   "step": "surface_structures"
 }
